@@ -1,0 +1,23 @@
+{
+  "name": "backend-start",
+  "version": "0.0.1",
+  "description": "Try to build my own Backend. Learning.",
+  "main": "index.js",
+  "author": "Artur Kulish",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./dist/index.js",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
