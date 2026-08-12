@@ -10,7 +10,7 @@ const db = {
         {id: 1, name: 'Node.js'},
         {id: 2, name: 'React'},
         {id: 3, name: 'Angular'},
-        {id: 4, name: 'Vue1'}
+        {id: 4, name: 'Vue'}
     ]
 };
 
