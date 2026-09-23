@@ -11,3 +11,12 @@ node_modules/
 !.yarn/versions
 # dist
 dist/
+coverage/
+jest.config.js
+jest.config.js.map
+jest.config.d.ts
+jest.config.d.ts.map
+__tests__/*.js
+__tests__/*.js.map
+__tests__/*.d.ts
+__tests__/*.d.ts.map
