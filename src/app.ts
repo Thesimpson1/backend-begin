@@ -1,7 +1,7 @@
 import express from "express";
 import coursesRouter from "./routes/courses.js";
 
-export const app = express();
+const app = express();
 const port = process.env.PORT || 3003;
 
 const jsonBodyParser = express.json();
@@ -12,3 +12,4 @@ app.use("/courses", coursesRouter);
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 });
+export default app;
